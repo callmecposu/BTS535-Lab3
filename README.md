@@ -7,11 +7,11 @@ We as a team have outlined tasks for our Workshop, and came down to the followin
 
 - 3 problems that our solution would solve
 - Ways our solution would remedy the stated problems (1 for each problem)
-- 5 Technologies required by a solution
+- 7 Technologies required by a solution
 
 Given that the person who stated the problem would have the most understanding of how to solve it, we have unified stating the problem and proposing the solution to it in one task.
 
-Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of our team.
+Overall, we have 10 tasks (3 problems/solutions and 7 technologies) that are divided evenly within 5 members of our team.
 
 
 ## Describe the problem
@@ -93,3 +93,15 @@ Reasoning:
 
 
 Stripe offers an incredibly friendly developer API with excellent documentation. Stripe also offloads a lot of the payment processing overhead off of the developer. PCI DSS compliance, encryption, and fraud prevention are all done on their end and to a very high standard. This reduces the burden of developing, implementing, and then maintaining this subsystem. Stripes as an all-in-one platform, unlike Paypal or other alternatives, will allow us to vastly reduce the manhours required to complete this subsystem, while still allowing this subsystem to scale with the rest of the project. We need what Stripe offers (payment processing, recurring payments, secure transactions, a custom checkout experience, event ticketing management, and an inhouse analytics and reporting) since our platform intends to solve our users need to schedule events that may require attendees to prepay for food, accommodation, and other amenities, etc.
+
+### Geolocation Services *(By Japit Singh)*
+
+#### Chosen Technology: *Google Maps API / Mapbox*
+
+We believe that providing location-based event recommendations and making it simple for users to find events nearby are essential features for our app. In order to put this into practice, geolocation services are needed to show event locations on a map, provide directions to the site, and let users filter events according to proximity. For these uses, it is possible to connect Mapbox or Google Maps API, which offer geocoding, routing, and a more thorough event discovery process.
+
+### Analytics and Reporting *(By Japit Singh)*
+
+#### Chosen Technology: *Google Analytics / Mixpanel*
+
+To track user activity, monitor app performance, and gain insights into event engagement, we require analytics tools. Google Analytics or Mixpanel can be integrated for this purpose, offering event-based tracking and reporting on user behavior. These insights will help developers and event organizers optimize the app experience and identify popular features. Tools like Mixpanel provide more granular, real-time insights into specific actions like registration or messaging.
