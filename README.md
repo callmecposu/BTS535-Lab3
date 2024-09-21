@@ -11,7 +11,7 @@ We as a team have outlined tasks for our Workshop, and came down to the followin
 
 Given that the person who stated the problem would have the most understanding of how to solve it, we have unified stating the problem and proposing the solution to it in one task.
 
-Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of out team.
+Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of our team.
 
 
 ## Describe the problem
@@ -36,6 +36,17 @@ Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divi
 
 ### Mobile Development Framework *(by Maksym Volkovynskyi)*
 
+#### Chosen Technology: *React Native*
+
+Since we are developing a mobile application, we will require a Mobile Development Framework. There are several options to choose from, including:
+
+- Native iOS Development with **Swift**
+- Native Android Development with **Java**
+- Cross-platform Development with **Flutter**
+- Cross-platform Development with **React Native**
+
+Native development options have gone out of the question for us due to having to maintain two separate codebases for Android and iOS versions of the app, which would bring significant overhead at the early stages of development. Hence, our choice lies between **Flutter** and **React Native**. Since **React Native** is a direct **React** offspring, choosing it as a base mobile development framework would make it easy for us to port the frontend layer to a website later on, whereas a **Flutter** project would not be portable to web and would have us rebuild the website from scratch when we require it.
+
 ### Backend Framework *(by Daniel Krause)*
 
 ##### Node.js + Express
@@ -51,6 +62,12 @@ Node.js offers high scalability. It's non-blocking IO, allows, unlike traditiona
 ### Database *(by Jiseok Shim)*
 
 ### Real-Time Communication *(by Maksym Volkovynskyi)*
+
+#### Chosen Tecnhology: *WebSockets*
+
+We find it necessary for our app to enable its users, whether they are events' attendees or hosts, to seamlessly connect with one another. To implement this feature, we require some sort of Real-Time Communication framework that would allow for consistent and secure two-way communication between users, be it in a form of Direct Messaging or Event Group Chats. 
+
+To achieve this functionality, we will need to rely on a chat microservice utilizing a communication protocol that enables two-way information exchange between client and server. There are two communication protocols that can be used for this purpose: **gRPC (Google Remote Procedure Call)** and **WebSockets**. **gRPC** offers more advanced features and enhanced performance, but it can't be used directly from a browser interface, which would render chat microservice inaccessible if we decide to make a website port for our application later. **WebSockets**, on the other hand, can be used in both mobile and browser environments, which would allow us to build the chat microservice once and reuse it for both mobile application and website.
 
 ### Payment Integration *(by Daniel Krause)*
 
