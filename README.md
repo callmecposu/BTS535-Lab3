@@ -18,28 +18,28 @@ Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divi
 
 ### Problem 1 *(by Jiseok Shim)*
 
-### Problem 2
+### Problem 2 *(by Anurag Das)*
 
-### Problem 3
+### Problem 3 *(by Anurag Das)*
 
 
 ## Propose a solution
 
 ### Solution to Problem 1 *(by Jiseok Shim)*
 
-### Solution to Problem 2 
+### Solution to Problem 2 *(by Anurag Das)*
 
-### Solution to Problem 3
+### Solution to Problem 3 *(by Anurag Das)*
 
 
 ## List the technologies required by the solution
 
 ### Mobile Development Framework *(by Maksym Volkovynskyi)*
 
-### Backend Framework
+### Backend Framework *(by Daniel Krause)*
 
 ### Database *(by Jiseok Shim)*
 
 ### Real-Time Communication *(by Maksym Volkovynskyi)*
 
-### Payment Integration
+### Payment Integration *(by Daniel Krause)*
