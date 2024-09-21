@@ -58,14 +58,10 @@ Node.js offers high scalability. It's non-blocking IO, allows, unlike traditiona
 
 ### Database *(by Jiseok Shim)*
 
-PostgreSQL: Vertical scalability is a feature of postgreSQL and supports environments that scale up databases. Scalability is a must for us if we look at the potential for local events to grow.
-PostgreSQL is flexible because it supports different data types, such as JSON, XML, and allows users to define their own data types.
-PostgreSQL is completely open-source, so it is freely modified, used, and implemented according to business needs.
-
 MongoDB: MongoDB is a database that provides high performance and easy scalability.
-MongoDB has a high degree of schema freedom, allowing it to store data without prescribing the structure and fields of the data, which is useful when the structure of the data changes frequently or when it needs to be stored in various forms.
-It is a good technology for event organizers who can also change the data structure while conducting various local events.
-MongoDB helps you easily retrieve data and extract only the data you need by using various query functions. In addition, MongoDB can handle large amounts of data by providing the MapReduce function.
+MongoDB has a high degree of schema freedom, allowing it to store data without prescribing the structure and fields of the data, which is useful when the structure of the data changes frequently or when it needs to be stored in various forms. When event organizers run multiple small events, SQL based databases requires frequent changes to the data structure, while MongoDB does not fix the schema, so it has the advantage of being able to easily change the data structure. It is a good technology for event organizers who can also change the data structure while conducting various local events.
+Unlike SQL based databases, MongoDB can provide a faster and more pleasant experience when you need to send notifications to users through fast memory access or when you need to communicate with participants in real-time.
+MongoDB helps you easily retrieve data and extract only the data you need by using various query functions. In addition, MongoDB can handle large amounts of data by providing the MapReduce function.This is useful later when local events become larger and more participants have to deal with large amounts of data.
 
 ### Real-Time Communication *(by Maksym Volkovynskyi)*
 
