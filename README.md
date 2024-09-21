@@ -11,7 +11,7 @@ We as a team have outlined tasks for our Workshop, and came down to the followin
 
 Given that the person who stated the problem would have the most understanding of how to solve it, we have unified stating the problem and proposing the solution to it in one task.
 
-Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of out team.
+Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of our team.
 
 
 ## Describe the problem
