@@ -96,12 +96,12 @@ Stripe offers an incredibly friendly developer API with excellent documentation.
 
 ### Geolocation Services *(By Japit Singh)*
 
-#### Chosen Technology: *Google Maps API / Mapbox*
+#### Chosen Technology: *Google Maps API *
 
-We believe that providing location-based event recommendations and making it simple for users to find events nearby are essential features for our app. In order to put this into practice, geolocation services are needed to show event locations on a map, provide directions to the site, and let users filter events according to proximity. For these uses, it is possible to connect Mapbox or Google Maps API, which offer geocoding, routing, and a more thorough event discovery process.
+We believe that our app must assist users in finding nearby events and offer location-based event recommendations. In order to put this into practice, geolocation services are needed to show event locations on a map, provide directions to the site, and let users filter events according to proximity. Our project requires the Google Maps API because of its many capabilities, which include precise geocoding, a wide range of routing choices, and a wealth of location data. Integrating the Google Maps API will improve user experience by enabling real-time travel and increasing the effectiveness and engagement of event discovery.
 
 ### Analytics and Reporting *(By Japit Singh)*
 
-#### Chosen Technology: *Google Analytics / Mixpanel*
+#### Chosen Technology: *Google Analytics*
 
-To track user activity, monitor app performance, and gain insights into event engagement, we require analytics tools. Google Analytics or Mixpanel can be integrated for this purpose, offering event-based tracking and reporting on user behavior. These insights will help developers and event organizers optimize the app experience and identify popular features. Tools like Mixpanel provide more granular, real-time insights into specific actions like registration or messaging.
+We need analytics tools to track user behavior, keep an eye on app performance, and learn more about event engagement. For this, Google Analytics will be incorporated, providing comprehensive reporting on event interactions and user behavior. This technology is essential to our project since it allows event planners and developers to analyze user participation and find popular features to optimize the app experience. Google Analytics gives us strong insights into user activity patterns, conversion tracking, and demographics, enabling us to make informed decisions to improve the performance of our application.
