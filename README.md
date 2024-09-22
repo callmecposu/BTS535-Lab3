@@ -122,18 +122,18 @@ We believe that our app must assist users in finding nearby events and offer loc
 
 We need analytics tools to track user behavior, keep an eye on app performance, and learn more about event engagement. For this, Google Analytics will be incorporated, providing comprehensive reporting on event interactions and user behavior. This technology is essential to our project since it allows event planners and developers to analyze user participation and find popular features to optimize the app experience. Google Analytics gives us strong insights into user activity patterns, conversion tracking, and demographics, enabling us to make informed decisions to improve the performance of our application.
 
-### Social Features: *(By Anurag Das)*
+### Recommendation System: *(By Anurag Das)*
 
-#### Chosen Technology: *Facebook, Instagram*
+#### Chosen Technology: *TensorFlow*
 
 Reasoning: 
 
-Integrating social features can help users connect with friends and share their event experiences. It can also promote event discovery and reach a wider audience.
+TensorFlow is an open-source machine learning library developed by Google. It provides a comprehensive ecosystem for building and deploying machine learning models, including those for recommendation systems. TensorFlow has dedicated modules like TensorFlow Recommenders, which simplifies building recommendation algorithms using collaborative filtering, content-based methods, and hybrid approaches. It’s highly scalable and can easily integrate with mobile apps.
 
 ### Community Forum: *(By Anurag Das)*
 
-#### Chosen Technology: *Reddit*
+#### Chosen Technology: *Firebase Firestore*
 
 Reasoning: 
 
-A forum can provide a space for attendees to discuss topics related to the event, share experiences, and connect with others. It can also serve as a repository for event-related information and resources.
+Firebase Firestore is a NoSQL database that offers real-time synchronization, which can be useful for a custom-built forum. You can create a lightweight, scalable forum by using Firebase as your backend and building a custom frontend using React Native or another frontend technology. Firebase offers built-in support for real-time updates, making it ideal for dynamic interactions like posts and comments appearing instantly.
