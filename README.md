@@ -7,11 +7,11 @@ We as a team have outlined tasks for our Workshop, and came down to the followin
 
 - 3 problems that our solution would solve
 - Ways our solution would remedy the stated problems (1 for each problem)
-- 5 Technologies required by a solution
+- 7 Technologies required by a solution
 
 Given that the person who stated the problem would have the most understanding of how to solve it, we have unified stating the problem and proposing the solution to it in one task.
 
-Overall, we have 8 tasks (3 problems/solutions and 5 technologies) that are divided evenly within 4 members of our team.
+Overall, we have 10 tasks (3 problems/solutions and 7 technologies) that are divided evenly within 5 members of our team.
 
 
 ## Describe the problem
@@ -93,3 +93,15 @@ Reasoning:
 
 
 Stripe offers an incredibly friendly developer API with excellent documentation. Stripe also offloads a lot of the payment processing overhead off of the developer. PCI DSS compliance, encryption, and fraud prevention are all done on their end and to a very high standard. This reduces the burden of developing, implementing, and then maintaining this subsystem. Stripes as an all-in-one platform, unlike Paypal or other alternatives, will allow us to vastly reduce the manhours required to complete this subsystem, while still allowing this subsystem to scale with the rest of the project. We need what Stripe offers (payment processing, recurring payments, secure transactions, a custom checkout experience, event ticketing management, and an inhouse analytics and reporting) since our platform intends to solve our users need to schedule events that may require attendees to prepay for food, accommodation, and other amenities, etc.
+
+### Geolocation Services *(By Japit Singh)*
+
+#### Chosen Technology: *Google Maps API *
+
+We believe that our app must assist users in finding nearby events and offer location-based event recommendations. In order to put this into practice, geolocation services are needed to show event locations on a map, provide directions to the site, and let users filter events according to proximity. Our project requires the Google Maps API because of its many capabilities, which include precise geocoding, a wide range of routing choices, and a wealth of location data. Integrating the Google Maps API will improve user experience by enabling real-time travel and increasing the effectiveness and engagement of event discovery.
+
+### Analytics and Reporting *(By Japit Singh)*
+
+#### Chosen Technology: *Google Analytics*
+
+We need analytics tools to track user behavior, keep an eye on app performance, and learn more about event engagement. For this, Google Analytics will be incorporated, providing comprehensive reporting on event interactions and user behavior. This technology is essential to our project since it allows event planners and developers to analyze user participation and find popular features to optimize the app experience. Google Analytics gives us strong insights into user activity patterns, conversion tracking, and demographics, enabling us to make informed decisions to improve the performance of our application.
