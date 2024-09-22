@@ -96,7 +96,7 @@ Stripe offers an incredibly friendly developer API with excellent documentation.
 
 ### Geolocation Services *(By Japit Singh)*
 
-#### Chosen Technology: *Google Maps API *
+#### Chosen Technology: *Google Maps API*
 
 We believe that our app must assist users in finding nearby events and offer location-based event recommendations. In order to put this into practice, geolocation services are needed to show event locations on a map, provide directions to the site, and let users filter events according to proximity. Our project requires the Google Maps API because of its many capabilities, which include precise geocoding, a wide range of routing choices, and a wealth of location data. Integrating the Google Maps API will improve user experience by enabling real-time travel and increasing the effectiveness and engagement of event discovery.
 
