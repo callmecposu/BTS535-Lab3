@@ -23,8 +23,16 @@ Problem:
 Event organizers have difficulties in conducting and organizing small local events. In checking participants' confirmation, communication with participants, and event feedback, Organizers feel uncomfortable performing manually or using various apps without a dedicated app, and this is inefficient event management.
 
 ### Problem 2 *(by Anurag Das)*
+Difficulty in Discovering Relevant Local Events
+
+Problem:
+People often struggle to find interesting and relevant local events that align with their interests and preferences. This can lead to missed opportunities for social connections, entertainment, and learning.
 
 ### Problem 3 *(by Anurag Das)*
+Lack of Community Building at Events
+
+Problem:
+Many local events fail to foster a sense of community and connection among attendees. This can lead to a lack of engagement and a feeling of isolation.
 
 
 ## Propose a solution
@@ -36,8 +44,16 @@ Solution:
 A mobile app for hosting/participating local events can help run and manage events successfully. The app can support organizers and simplify event management. For example, it provides organizers with functions such as managing participants, communicating with participants, and collecting event feedback to facilitate event management and data tracking.
 
 ### Solution to Problem 2 *(by Anurag Das)*
+Difficulty in Discovering Relevant Local Events.
+
+Solution:
+Our mobile app will address this problem by providing a personalized event discovery platform. Users can create profiles indicating their interests and preferences, allowing the app to curate a tailored list of events. Additionally, we will implement a robust search function with filters for various categories (e.g., music, art, food, sports) and location-based recommendations to help users find events near them.
 
 ### Solution to Problem 3 *(by Anurag Das)*
+Lack of Community Building at Events
+
+Solution:
+Our mobile app will address this problem by incorporating features that promote community building. We will include a messaging function to facilitate communication between attendees and event organizers. Additionally, we will explore the possibility of creating virtual event communities where users can discuss topics related to the event or connect with like-minded individuals. This will help to create a more inclusive and engaging event experience.
 
 
 ## List the technologies required by the solution
@@ -105,3 +121,19 @@ We believe that our app must assist users in finding nearby events and offer loc
 #### Chosen Technology: *Google Analytics*
 
 We need analytics tools to track user behavior, keep an eye on app performance, and learn more about event engagement. For this, Google Analytics will be incorporated, providing comprehensive reporting on event interactions and user behavior. This technology is essential to our project since it allows event planners and developers to analyze user participation and find popular features to optimize the app experience. Google Analytics gives us strong insights into user activity patterns, conversion tracking, and demographics, enabling us to make informed decisions to improve the performance of our application.
+
+### Social Features: *(By Anurag Das)*
+
+#### Chosen Technology: *Facebook, Instagram*
+
+Reasoning: 
+
+Integrating social features can help users connect with friends and share their event experiences. It can also promote event discovery and reach a wider audience.
+
+### Community Forum: *(By Anurag Das)*
+
+#### Chosen Technology: *Reddit*
+
+Reasoning: 
+
+A forum can provide a space for attendees to discuss topics related to the event, share experiences, and connect with others. It can also serve as a repository for event-related information and resources.
